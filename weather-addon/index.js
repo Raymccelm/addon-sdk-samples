@@ -31,7 +31,7 @@ exports.handler = (event, context, callback) => {
         return;
     }
 
-    if (!OPENWEATHERMAP_API_KEY || OPENWEATHERMAP_API_KEY == 'your_api_key_goes_here') {
+    if (!OPENWEATHERMAP_API_KEY || OPENWEATHERMAP_API_KEY == 'eeea830e6b3f410d54c41965aabbef88') {
         callback(null, {
             eventResponse: wrapResponse('<p><strong>OPENWEATHERMAP_API_KEY</strong> is not configured.</p>')
         });
